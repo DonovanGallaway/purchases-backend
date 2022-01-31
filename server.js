@@ -33,7 +33,7 @@ app.use(morgan('dev'))
 // Routes
 ///////////////////////////
 
-app.get('/', auth, (req,res)=>{
+app.get('/', (req,res)=>{
    res.json("Hello World")
 })
 
