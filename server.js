@@ -34,7 +34,7 @@ app.use(morgan('dev'))
 ///////////////////////////
 
 app.get('/', auth, (req,res)=>{
-   res.json(req.payload)
+   res.json("Hello World")
 })
 
 
